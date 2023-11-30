@@ -1,10 +1,13 @@
 ## Before start need to Node.js and Angular-cli
-(Windows)
+### Windows systems
+
 winget install nodejs
+
 npm install -g @angular/cli
 
 ## Run for first time
 npm install
+
 npm run start
 
 # ExerciseAlticeLabsGUI
@@ -37,8 +40,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## How to use
 After project runnung correctly open a browser and access to link:
+
 http://localhost:4200/
 
 On website just input a number on box and press execute to get result.
 
-### Enjoy my app.
+### Enjoy my app
