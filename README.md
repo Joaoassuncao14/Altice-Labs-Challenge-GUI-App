@@ -1,3 +1,12 @@
+## Before start need to Node.js and Angular-cli
+(Windows)
+winget install nodejs
+npm install -g @angular/cli
+
+## Run for first time
+npm install
+npm run start
+
 # ExerciseAlticeLabsGUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
@@ -25,3 +34,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## How to use
+After project runnung correctly open a browser and access to link:
+http://localhost:4200/
+
+On website just input a number on box and press execute to get result.
+
+### Enjoy my app.
