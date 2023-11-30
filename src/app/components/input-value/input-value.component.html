@@ -1,0 +1,13 @@
+<h2>WELCOME TO MY APP</h2>
+<p>This page will calculate the sequence of l(n)=>l(n-4)+l(n-3) just fill the field and press on button to get a result</p>
+<div>
+    <label for="numInput">Enter a number:</label><p></p>
+    <input type="number" [(ngModel)]="numb" name="numInput" id="numInput" placeholder="Enter a number">
+    <button type="button" (click)="getResult()">Execute</button>
+</div>
+
+<div>
+    <h3>Result: {{this.result}}</h3>
+</div>
+
+<button type="button" (click)="clearResult()">Clear</button>
